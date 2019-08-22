@@ -1,0 +1,37 @@
+.form-container{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    margin: 10px auto;
+    background: gray;
+}
+.alert{
+    background: rgb(199, 48, 118);
+    padding:7px;
+    font-size: 15px;
+    display:inline-block;
+    animation: 2s alertAnim forwards;
+}
+
+.button{
+    margin-top: 14px;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'muli';
+    font-size: 16px;
+}
+
+@keyframes alertAnim{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
